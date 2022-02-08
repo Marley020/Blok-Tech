@@ -1,1 +1,23 @@
-hi
+{
+  "name": "blok-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marley020/Blok-Tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marley020/Blok-Tech/issues"
+  },
+  "homepage": "https://github.com/Marley020/Blok-Tech#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
