@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/Marley020/Blok-Tech#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
   },
   "devDependencies": {
+    "eslint": "^8.10.0",
     "nodemon": "^2.0.15"
   }
 }
