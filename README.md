@@ -8,20 +8,19 @@
 - _Credits_
 - _License_
 
+### Introduction
 
-### Introduction (About)
+Voor dit project hebben we de opdracht gekregen om een nieuwe manier van matching in de huidige wereld van standaard matching applicaties te introduceren. Project Tech legt daarnaast ook de basis voor een gezamelijk project.
 
-Voor dit project hebben we de opdracht gekregen om een nieuwe manier van matching te introduceren, in de huidige wereld van standaard matching applicaties. Project Tech is daarnaast ook de basis voor een gezamelijk project.
+### Purpose & General Info
 
-### Purpose & General Info (Features)
-
-Tijdens Project Tech ga ik een deel van een applicatie uitwerken voor een matching app. De focus van dit deel van de applicatie ligt op het koppelen van gebruikers aan de hand van hun interesses/smaak.
+Tijdens Project Tech zal ik een deel van een applicatie uit gaan werken, om te implementeren in een matching app. De focus van dit deel van de applicatie ligt op het matchen van gebruikers aan de hand van hun interesses/smaak.
 
 ### Installation
 
 ### Contributing
 
-Feedback is altijd welkom
+Feedback is altijd welkom.
 
 ### Credits
 
