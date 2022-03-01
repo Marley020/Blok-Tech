@@ -29,15 +29,15 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('home')
+  res.render('createProfile')
 })
 
-app.get('/about', (req, res) => {
-  res.render('about')
+app.get('/deleteProfile', (req, res) => {
+  res.render('deleteProfile')
 })
 
-app.get('/login', (req, res) => {
-  res.render('form')
+app.get('/updateProfile', (req, res) => {
+  res.render('updateProfile')
 })
 
 app.get('*', (req, res) => {
