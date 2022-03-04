@@ -2,7 +2,7 @@
 // its a module from NPM
 const express = require('express');
 const {engine} = require('express-handlebars');
-const app = express();
+
 const req = require('express/lib/request');
 // allows us to extract data from the client being passed in via e.g. form
 const bodyParser = require('body-parser');
@@ -10,6 +10,8 @@ const bodyParser = require('body-parser');
 const slug = require('slug');
 // upload and or handle images etc.
 const multer  = require('multer');
+const upload = multer({ dest: 'uploads/'});
+const app = express();
 // init environmental variables 
 require('dotenv').config()
 // set port to be 1337
@@ -38,6 +40,21 @@ app.get('/deleteProfile', (req, res) => {
 
 app.get('/updateProfile', (req, res) => {
   res.render('updateProfile')
+})
+
+app.post('/profile', upload.single('avatar'), (req, res) => {
+  try {
+    console.log('22222', req.body.name)
+    if (req.body.rock) {
+      console.log('rock was selected')
+    } else {
+      console.log('not selected')
+    }
+    res.send('Success')
+  } catch (error) {
+    console.log('an error ocurred')
+    throw new Error(error);
+  }
 })
 
 app.get('*', (req, res) => {
